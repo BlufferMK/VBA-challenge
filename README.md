@@ -1,3 +1,6 @@
+This challenge required using VBA scripting to analyze quarterly stock results for a large number of stocks over multiple years.  I used VBA script to calculate quarterly price changes for each individual stock, as well as percentage changes and volumes traded.  The script did this for each of 3 worksheets, each of which held data for one year.
+
+
 I did not use large chunks of code from any sources but I did google many things to solve problems with trying to make the code work.
 One place I used was    excelchamps.com/vba/loop-sheets   which helped me with how to set up looping through the worksheets.  I struggled with the syntax a little and then realized that I needed to include Sheets(J). in front of each Cells or Range assignment.  I missed one which caused problems for a while.  I was tempted to use Find and Replace to do this, and in hindsight, I think I should have.
 I used a different site to determine how to count the rows in the worksheet in order to loop through the ticker symbols on a given worksheet.  I lost my notes on which site it was, but it may have been    https://excelchamps.com/vba/rows-count/
